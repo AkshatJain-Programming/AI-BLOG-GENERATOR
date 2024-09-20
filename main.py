@@ -3,7 +3,7 @@ import os
 import google.generativeai as genai
 import markdown  # Import markdown module
 
-genai.configure(api_key="AIzaSyBceE5cBHfv3BLen-knd0cIX4_vgtJa46A")
+genai.configure(api_key="YOUR_API_KEY")
 
 # Create the model
 generation_config = {
